@@ -1,0 +1,367 @@
+@import url(fonts.css);
+
+body {
+  margin: 0%;
+  font-family: Raleway;
+  background: #242b33;
+}
+
+body * {
+  box-sizing: border-box;
+}
+a {
+  font-size: 14px;
+  line-height: 16px;
+  color: #d4c17f;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.home {
+  display: flex;
+}
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+.header-navigation {
+  list-style: none;
+  display: flex;
+}
+.header-navigation_item {
+  padding-left: 47px;
+  padding-top: 55px;
+}
+
+.header-navigation_item a {
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.house {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  height: 83px;
+  align-items: center;
+}
+.header {
+  background: url(../image/fon-header.jpg) no-repeat;
+  height: 840px;
+  width: 100%;
+  border-radius: 0px;
+  background-position: 50%;
+}
+
+.logo {
+  font-family: Post No Bills Jaffna;
+
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  color: #ffffff;
+}
+.logo-house {
+  font-family: Raleway;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.35em;
+  color: #ffffff;
+}
+
+.header-text-block {
+  text-align: center;
+  margin-top: 200px;
+}
+.header-text {
+  font-family: Playfair Display;
+  font-size: 48px;
+  line-height: 64px;
+  color: #d4c17f;
+}
+.mouse-logo {
+  padding-top: 100px;
+}
+.text-street {
+  font-family: Raleway;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  padding-left: 18px;
+}
+.link-nomber {
+  font-family: Raleway;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  text-decoration: none;
+  padding-left: 18px;
+}
+
+.geolocation-header {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+.link {
+  margin-left: 100px;
+}
+.street-text img,
+.link img {
+  vertical-align: text-bottom;
+}
+
+.icon-menu {
+  width: 794px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 194px;
+}
+.icon-menu-flat {
+  text-align: center;
+}
+.apartaments-style-text {
+  padding-top: 53px;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+}
+.icon-menu-flat + .icon-menu-flat {
+  margin-left: 70px;
+}
+.our-apartments {
+  padding-top: 120px;
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  color: #d4c17f;
+}
+.img-apartaments {
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.imgblock {
+  position: relative;
+  width: 535px;
+  height: 320px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+}
+.imgblock:nth-child(even) {
+  margin-left: 30px;
+}
+.imgblock span {
+  position: absolute;
+  font-family: Raleway;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  left: 50px;
+  bottom: 50px;
+}
+
+.applications {
+  background: url(../image/background-applications.png) center no-repeat;
+  width: 100%;
+  height: 560px;
+}
+.look {
+  padding-top: 150px;
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  color: #d4c17f;
+}
+.applications-forma {
+  padding-top: 50px;
+}
+.description {
+  padding-top: 50px;
+  font-family: Raleway;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  flex: 0 0 535px;
+  padding-right: 35px;
+}
+.input-info {
+  background: #ffffff;
+  opacity: 0.2;
+  width: 255px;
+  height: 50px;
+  border: 0;
+  font-family: Raleway;
+  font-size: 14px;
+  line-height: 27px;
+  color: #bebebe;
+  padding: 0;
+  text-align: center;
+}
+.button-text {
+  font-family: Raleway;
+  font-size: 13px;
+  line-height: 16px;
+  color: #e7e7e7;
+  width: 255px;
+  height: 28px;
+  margin-top: 46px;
+}
+.button-district {
+  width: 255px;
+  height: 50px;
+  background: #d4c17f;
+  border: 0;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 27px;
+  color: #ffffff;
+  margin-top: 35px;
+  padding: 0;
+}
+.button-wrapper-input {
+  margin-top: 29px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.applications-forma {
+  display: flex;
+}
+.h1:nth-child(even) {
+  margin-left: 30px;
+}
+.player-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 719px;
+  height: 650px;
+  background: url(../image/video-player.png);
+  background-size: cover;
+}
+.player-button {
+  width: 100px;
+  height: 100px;
+  background: url(../image/play-image.svg);
+}
+.maps {
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  color: #d4c17f;
+  padding-top: 180px;
+}
+.city-maps {
+  background: url(../image/city-maps.png);
+  background-size: cover;
+  width: 1110px;
+  height: 358px;
+  margin-top: 100px;
+}
+.questions {
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  color: #d4c17f;
+  margin-top: 180px;
+}
+.description-questions {
+  margin-top: 50px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.input-text {
+  font-family: Raleway;
+  font-size: 13px;
+  line-height: 16px;
+  color: #e7e7e7;
+  width: 255px;
+  height: 28px;
+  margin-bottom: 11px;
+}
+.footer-color {
+  background-color: #2d343c;
+  width: 100%;
+  height: 275px;
+  margin-top: 180px;
+}
+.footer-block {
+  display: flex;
+  padding-top: 60px;
+  flex: 1 0 auto;
+  width: 100%;
+}
+.logo-footer {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
+.text-logo-footer {
+  font-family: Post No Bills Jaffna SemiBold;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  color: #ffffff;
+}
+.text-footer {
+  font-family: Raleway;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.12em;
+  color: #ffffff;
+}
+
+.list li {
+  list-style-type: none;
+  padding-bottom: 15px;
+  font-family: Raleway;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  flex: 1 0 auto;
+  padding: 0;
+}
+.footer-street-info {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+ul {
+  padding-left: 166px;
+}
+
+.logo-footer-network {
+  padding-top: 5px;
+}
+.logo-networks {
+  padding-right: 17px;
+}
